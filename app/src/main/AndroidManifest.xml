@@ -10,7 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.InfinitySorteios3">
         <activity
-            android:name=".Tela1"
+            android:name=".telanome"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
